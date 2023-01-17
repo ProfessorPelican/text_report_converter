@@ -1,7 +1,7 @@
 # text_report_converter
 
 ## Overall Purpose:
-Often, "canned" reports that are intended to be printed can be exported to text, but the text is in the same format as the printed report.  This means the data is not tabular, and includes field headings, page headers and footers, etc.  This converts these into a Pandas dataframe, which can then be analyzed or exported to another format such as Excel as desired.
+Often, "canned" reports that are intended to be printed can be exported to text, but the text is in the same format as the printed report.  This means the data is not tabular, and includes field names, page headers and footers, etc.  This converts these into a Pandas dataframe, which can then be analyzed or exported to another format such as Excel as desired.
 
 ## Useful Code Aspects:
 <ul>
