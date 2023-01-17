@@ -9,3 +9,6 @@ Reports that are intended to be printed can often be exported to text, but with 
    <li>Can include header row information as fields as well as detail row information (the header fields repeat for each related detail row).</li>
    <li>All fields are returned as strings, which is what they are in the source text file.  These can then be converted as needed.</li>
 </ul>
+
+## Personal Note:
+I created this a while ago, before I really had a lot of experience with Pandas.  If I was to refactor this, I would consider whether I could replace some or all of these loops with a Pandas vectorized function.
