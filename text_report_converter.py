@@ -23,10 +23,6 @@ raw_data = import_raw_data(REPORT_PATH)
 report = convert_report(REPORT_PATH, DETAIL_MARKER, DETAIL_FIELDS,
                        HEADER_MARKER, HEADER_FIELDS)
 '''
-__author__ = 'Kevin Strickler'
-__version__ = '1.1'
-__all__ = ['import_report', 'import_raw_data']
-
 import pandas as pd
 
 def import_report(file_path, detail_marker, detail_fields,
